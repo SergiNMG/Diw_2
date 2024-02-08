@@ -1,0 +1,10 @@
+.g--margin{
+
+    @for $i from 1 through length($sizes){
+        &-#{$i}{
+            margin: nth($sizes, $i);
+        }
+    }
+    
+}
+

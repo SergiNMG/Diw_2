@@ -1,0 +1,20 @@
+    .g--color{
+        @each $color, $values in $colors{
+            @each $value in $values{
+                $i: index($values , $value);
+    
+                &-#{$color}-#{$i}{
+                    color: $value;
+                }  
+                
+                &-background-#{$color}-#{$i}{
+                    background-color: $value;
+                }
+            }
+        }
+
+    }
+    
+    
+    
+
