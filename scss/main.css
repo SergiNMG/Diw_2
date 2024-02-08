@@ -58,74 +58,74 @@
 .l-columns--1 {
   grid-template-columns: repeat(1, 1);
 }
-.l-columns--1__area--span-1 {
+.l-columns__area--span-1 {
   grid-column: span 1;
 }
 .l-columns--2 {
   grid-template-columns: repeat(2, 1);
 }
-.l-columns--2__area--span-2 {
+.l-columns__area--span-2 {
   grid-column: span 2;
 }
 .l-columns--3 {
   grid-template-columns: repeat(3, 1);
 }
-.l-columns--3__area--span-3 {
+.l-columns__area--span-3 {
   grid-column: span 3;
 }
 .l-columns--4 {
   grid-template-columns: repeat(4, 1);
 }
-.l-columns--4__area--span-4 {
+.l-columns__area--span-4 {
   grid-column: span 4;
 }
 .l-columns--5 {
   grid-template-columns: repeat(5, 1);
 }
-.l-columns--5__area--span-5 {
+.l-columns__area--span-5 {
   grid-column: span 5;
 }
 .l-columns--6 {
   grid-template-columns: repeat(6, 1);
 }
-.l-columns--6__area--span-6 {
+.l-columns__area--span-6 {
   grid-column: span 6;
 }
 @media (min-width: 576px) {
   .l-columns--1 {
     grid-template-columns: repeat(1, 1);
   }
-  .l-columns--1__area--span-1 {
+  .l-columns__area--span-1 {
     grid-column: span 1;
   }
   .l-columns--2 {
     grid-template-columns: repeat(2, 1);
   }
-  .l-columns--2__area--span-2 {
+  .l-columns__area--span-2 {
     grid-column: span 2;
   }
   .l-columns--3 {
     grid-template-columns: repeat(3, 1);
   }
-  .l-columns--3__area--span-3 {
+  .l-columns__area--span-3 {
     grid-column: span 3;
   }
   .l-columns--4 {
     grid-template-columns: repeat(4, 1);
   }
-  .l-columns--4__area--span-4 {
+  .l-columns__area--span-4 {
     grid-column: span 4;
   }
   .l-columns--5 {
     grid-template-columns: repeat(5, 1);
   }
-  .l-columns--5__area--span-5 {
+  .l-columns__area--span-5 {
     grid-column: span 5;
   }
   .l-columns--6 {
     grid-template-columns: repeat(6, 1);
   }
-  .l-columns--6__area--span-6 {
+  .l-columns__area--span-6 {
     grid-column: span 6;
   }
 }
@@ -133,37 +133,37 @@
   .l-columns--1\@tablet {
     grid-template-columns: repeat(1, 1);
   }
-  .l-columns--1\@tablet__area--span-1 {
+  .l-columns__area--span-1\@tablet {
     grid-column: span 1;
   }
   .l-columns--2\@tablet {
     grid-template-columns: repeat(2, 1);
   }
-  .l-columns--2\@tablet__area--span-2 {
+  .l-columns__area--span-2\@tablet {
     grid-column: span 2;
   }
   .l-columns--3\@tablet {
     grid-template-columns: repeat(3, 1);
   }
-  .l-columns--3\@tablet__area--span-3 {
+  .l-columns__area--span-3\@tablet {
     grid-column: span 3;
   }
   .l-columns--4\@tablet {
     grid-template-columns: repeat(4, 1);
   }
-  .l-columns--4\@tablet__area--span-4 {
+  .l-columns__area--span-4\@tablet {
     grid-column: span 4;
   }
   .l-columns--5\@tablet {
     grid-template-columns: repeat(5, 1);
   }
-  .l-columns--5\@tablet__area--span-5 {
+  .l-columns__area--span-5\@tablet {
     grid-column: span 5;
   }
   .l-columns--6\@tablet {
     grid-template-columns: repeat(6, 1);
   }
-  .l-columns--6\@tablet__area--span-6 {
+  .l-columns__area--span-6\@tablet {
     grid-column: span 6;
   }
 }
@@ -171,37 +171,37 @@
   .l-columns--1\@desktop {
     grid-template-columns: repeat(1, 1);
   }
-  .l-columns--1\@desktop__area--span-1 {
+  .l-columns__area--span-1\@desktop {
     grid-column: span 1;
   }
   .l-columns--2\@desktop {
     grid-template-columns: repeat(2, 1);
   }
-  .l-columns--2\@desktop__area--span-2 {
+  .l-columns__area--span-2\@desktop {
     grid-column: span 2;
   }
   .l-columns--3\@desktop {
     grid-template-columns: repeat(3, 1);
   }
-  .l-columns--3\@desktop__area--span-3 {
+  .l-columns__area--span-3\@desktop {
     grid-column: span 3;
   }
   .l-columns--4\@desktop {
     grid-template-columns: repeat(4, 1);
   }
-  .l-columns--4\@desktop__area--span-4 {
+  .l-columns__area--span-4\@desktop {
     grid-column: span 4;
   }
   .l-columns--5\@desktop {
     grid-template-columns: repeat(5, 1);
   }
-  .l-columns--5\@desktop__area--span-5 {
+  .l-columns__area--span-5\@desktop {
     grid-column: span 5;
   }
   .l-columns--6\@desktop {
     grid-template-columns: repeat(6, 1);
   }
-  .l-columns--6\@desktop__area--span-6 {
+  .l-columns__area--span-6\@desktop {
     grid-column: span 6;
   }
 }
@@ -209,37 +209,37 @@
   .l-columns--1\@full-desktop {
     grid-template-columns: repeat(1, 1);
   }
-  .l-columns--1\@full-desktop__area--span-1 {
+  .l-columns__area--span-1\@full-desktop {
     grid-column: span 1;
   }
   .l-columns--2\@full-desktop {
     grid-template-columns: repeat(2, 1);
   }
-  .l-columns--2\@full-desktop__area--span-2 {
+  .l-columns__area--span-2\@full-desktop {
     grid-column: span 2;
   }
   .l-columns--3\@full-desktop {
     grid-template-columns: repeat(3, 1);
   }
-  .l-columns--3\@full-desktop__area--span-3 {
+  .l-columns__area--span-3\@full-desktop {
     grid-column: span 3;
   }
   .l-columns--4\@full-desktop {
     grid-template-columns: repeat(4, 1);
   }
-  .l-columns--4\@full-desktop__area--span-4 {
+  .l-columns__area--span-4\@full-desktop {
     grid-column: span 4;
   }
   .l-columns--5\@full-desktop {
     grid-template-columns: repeat(5, 1);
   }
-  .l-columns--5\@full-desktop__area--span-5 {
+  .l-columns__area--span-5\@full-desktop {
     grid-column: span 5;
   }
   .l-columns--6\@full-desktop {
     grid-template-columns: repeat(6, 1);
   }
-  .l-columns--6\@full-desktop__area--span-6 {
+  .l-columns__area--span-6\@full-desktop {
     grid-column: span 6;
   }
 }
@@ -323,7 +323,7 @@
 .c-new {
   font-family: var(--font-style-primary);
   background-color: var(--color-grey-3);
-  border-color: 1px solid var(--color-grey-8);
+  border: 1px solid var(--color-grey-8);
 }
 
 .g--margin-1 {
