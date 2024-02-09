@@ -1,0 +1,35 @@
+.l-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) repeat(3, 2fr);
+    gap: 10px;
+}
+
+.c-column {
+    text-align: center;
+    border: 1px solid grey;
+    background-color: darkgray;
+}
+
+.l-columns-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+    gap: 10px;
+}
+
+.c-column-2 {
+    text-align: center;
+    border: 1px solid blue;
+    background-color: lightblue;
+}
+
+.l-columns-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    margin: 10px;
+}
+
+.c-column-3 {
+    text-align: center;
+    border: 1px solid red;
+    background-color: lightsalmon;
+}
