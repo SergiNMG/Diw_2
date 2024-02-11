@@ -1,0 +1,22 @@
+body{
+    font-family: var(--font-style-primary);
+}
+
+.c-form{
+    text-align: center;
+}
+
+.c-input-text{
+    width: 20vw;
+    height: 3vh;
+    outline: none;
+    transition: border 1s linear 1s,
+                border-radius 1s linear 1s,
+                box-shadow 1s linear 1s;
+}
+
+.c-input-text:focus{
+    border: 2px solid var(--color-green-7);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 var(--color-green-5);
+}
